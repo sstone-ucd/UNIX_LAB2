@@ -2,7 +2,7 @@ ROOT=../../csci3751/apue.3e
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	shell2++ shell2
+PROGS =	myFind shell2
 
 all:	$(PROGS)
 
